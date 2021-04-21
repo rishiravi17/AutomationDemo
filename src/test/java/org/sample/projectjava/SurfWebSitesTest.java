@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 
 import dataproviders.DataProviderExcel;
 
-public class SurfWebSites {
+public class SurfWebSitesTest {
 	
 	private WebDriver driver;
 	

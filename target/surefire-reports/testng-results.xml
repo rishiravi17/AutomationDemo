@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="10125" started-at="2021-04-21T07:13:15Z" finished-at="2021-04-21T07:13:25Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="10125" started-at="2021-04-21T07:13:15Z" finished-at="2021-04-21T07:13:25Z">
+      <class name="org.sample.projectjava.SurfWebSitesTest">
+        <test-method status="PASS" signature="setupDriver()[pri:0, instance:org.sample.projectjava.SurfWebSitesTest@add0edd]" name="setupDriver" is-config="true" duration-ms="1717" started-at="2021-04-21T07:13:15Z" finished-at="2021-04-21T07:13:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method status="PASS" signature="surfSites(java.lang.String)[pri:0, instance:org.sample.projectjava.SurfWebSitesTest@add0edd]" name="surfSites" duration-ms="816" started-at="2021-04-21T07:13:18Z" data-provider="getSiteURLs" finished-at="2021-04-21T07:13:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.google.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- surfSites -->
+        <test-method status="PASS" signature="surfSites(java.lang.String)[pri:0, instance:org.sample.projectjava.SurfWebSitesTest@add0edd]" name="surfSites" duration-ms="5335" started-at="2021-04-21T07:13:19Z" data-provider="getSiteURLs" finished-at="2021-04-21T07:13:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://the-internet.herokuapp.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- surfSites -->
+        <test-method status="PASS" signature="surfSites(java.lang.String)[pri:0, instance:org.sample.projectjava.SurfWebSitesTest@add0edd]" name="surfSites" duration-ms="863" started-at="2021-04-21T07:13:24Z" data-provider="getSiteURLs" finished-at="2021-04-21T07:13:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.wikipedia.org/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- surfSites -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.sample.projectjava.SurfWebSitesTest@add0edd]" name="tearDown" is-config="true" duration-ms="626" started-at="2021-04-21T07:13:25Z" finished-at="2021-04-21T07:13:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.sample.projectjava.SurfWebSitesTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
