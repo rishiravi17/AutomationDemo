@@ -1,0 +1,85 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Setup drivers",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2554704962,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Initializing driver",
+            "match": {
+              "location": "SurfBrowsersTest.initializing_driver()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 9,
+        "name": "Surf different sites",
+        "description": "",
+        "id": "in-order-to-surf-different-sites;surf-different-sites",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5690383787,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "The site to browse is \"https://the-internet.herokuapp.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://the-internet.herokuapp.com/",
+                  "offset": 23
+                }
+              ],
+              "location": "SurfBrowsersTest.the_site_to_browse_is(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 689971393,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User shall get the title \"The Internet\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "The Internet",
+                  "offset": 26
+                }
+              ],
+              "location": "SurfBrowsersTest.user_shall_get_the_title(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 8,
+            "name": "@Smoke"
+          }
+        ]
+      }
+    ],
+    "name": "In order to surf different sites",
+    "description": "As a user\r\nI want to see the titles",
+    "id": "in-order-to-surf-different-sites",
+    "keyword": "Feature",
+    "uri": "Smoke.feature"
+  }
+]

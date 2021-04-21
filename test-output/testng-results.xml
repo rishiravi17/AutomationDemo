@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-04-21T04:44:12Z" name="Default suite" finished-at="2021-04-21T04:44:25Z" duration-ms="13234">
+  <suite started-at="2021-04-21T08:04:37Z" name="Default suite" finished-at="2021-04-21T08:04:45Z" duration-ms="7821">
     <groups>
     </groups>
-    <test started-at="2021-04-21T04:44:12Z" name="Default test" finished-at="2021-04-21T04:44:25Z" duration-ms="13234">
-      <class name="org.sample.projectjava.SurfWebSites">
-        <test-method is-config="true" signature="setupDriver()[pri:0, instance:org.sample.projectjava.SurfWebSites@1a72a540]" started-at="2021-04-21T04:44:12Z" name="setupDriver" finished-at="2021-04-21T04:44:14Z" duration-ms="1727" status="PASS">
+    <test started-at="2021-04-21T08:04:37Z" name="Default test" finished-at="2021-04-21T08:04:45Z" duration-ms="7821">
+      <class name="org.sample.projectjava.SurfWebSitesTest">
+        <test-method is-config="true" signature="setupDriver()[pri:0, instance:org.sample.projectjava.SurfWebSitesTest@5be49b60]" started-at="2021-04-21T08:04:37Z" name="setupDriver" finished-at="2021-04-21T08:04:39Z" duration-ms="1705" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupDriver -->
-        <test-method signature="surfSites(java.lang.String)[pri:0, instance:org.sample.projectjava.SurfWebSites@1a72a540]" started-at="2021-04-21T04:44:15Z" name="surfSites" data-provider="getSiteURLs" finished-at="2021-04-21T04:44:16Z" duration-ms="876" status="PASS">
+        <test-method signature="surfSites(java.lang.String)[pri:0, instance:org.sample.projectjava.SurfWebSitesTest@5be49b60]" started-at="2021-04-21T08:04:40Z" name="surfSites" data-provider="getSiteURLs" finished-at="2021-04-21T08:04:41Z" duration-ms="922" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -22,7 +22,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- surfSites -->
-        <test-method signature="surfSites(java.lang.String)[pri:0, instance:org.sample.projectjava.SurfWebSites@1a72a540]" started-at="2021-04-21T04:44:16Z" name="surfSites" data-provider="getSiteURLs" finished-at="2021-04-21T04:44:21Z" duration-ms="4946" status="PASS">
+        <test-method signature="surfSites(java.lang.String)[pri:0, instance:org.sample.projectjava.SurfWebSitesTest@5be49b60]" started-at="2021-04-21T08:04:41Z" name="surfSites" data-provider="getSiteURLs" finished-at="2021-04-21T08:04:44Z" duration-ms="2794" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -33,7 +33,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- surfSites -->
-        <test-method signature="surfSites(java.lang.String)[pri:0, instance:org.sample.projectjava.SurfWebSites@1a72a540]" started-at="2021-04-21T04:44:21Z" name="surfSites" data-provider="getSiteURLs" finished-at="2021-04-21T04:44:24Z" duration-ms="3377" status="PASS">
+        <test-method signature="surfSites(java.lang.String)[pri:0, instance:org.sample.projectjava.SurfWebSitesTest@5be49b60]" started-at="2021-04-21T08:04:44Z" name="surfSites" data-provider="getSiteURLs" finished-at="2021-04-21T08:04:45Z" duration-ms="881" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -44,11 +44,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- surfSites -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.sample.projectjava.SurfWebSites@1a72a540]" started-at="2021-04-21T04:44:24Z" name="tearDown" finished-at="2021-04-21T04:44:25Z" duration-ms="1508" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.sample.projectjava.SurfWebSitesTest@5be49b60]" started-at="2021-04-21T08:04:45Z" name="tearDown" finished-at="2021-04-21T08:04:45Z" duration-ms="698" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- org.sample.projectjava.SurfWebSites -->
+      </class> <!-- org.sample.projectjava.SurfWebSitesTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
