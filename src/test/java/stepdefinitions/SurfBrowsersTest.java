@@ -2,6 +2,7 @@ package stepdefinitions;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
 
 import cucumber.api.java.en.Given;
@@ -14,9 +15,9 @@ public class SurfBrowsersTest {
 	@Given("^Initialize driver$")
 	public void initializing_driver() {
 		
-		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/resources/drivers/chromedriver.exe");
+		System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir") + "/resources/drivers/geckodriver.exe");
 		
-		driver = new ChromeDriver();
+		driver = new FirefoxDriver();
 		
 	}
 	

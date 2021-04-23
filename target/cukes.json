@@ -11,11 +11,11 @@
         "steps": [
           {
             "result": {
-              "duration": 2554704962,
+              "duration": 4735447526,
               "status": "passed"
             },
             "line": 6,
-            "name": "Initializing driver",
+            "name": "Initialize driver",
             "match": {
               "location": "SurfBrowsersTest.initializing_driver()"
             },
@@ -33,7 +33,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5690383787,
+              "duration": 5449030735,
               "status": "passed"
             },
             "line": 10,
@@ -51,7 +51,7 @@
           },
           {
             "result": {
-              "duration": 689971393,
+              "duration": 916467917,
               "status": "passed"
             },
             "line": 11,
@@ -77,7 +77,7 @@
       }
     ],
     "name": "In order to surf different sites",
-    "description": "As a user\r\nI want to see the titles",
+    "description": "As a user\r\nI want to see the titles of each site loaded",
     "id": "in-order-to-surf-different-sites",
     "keyword": "Feature",
     "uri": "Smoke.feature"

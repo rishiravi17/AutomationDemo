@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="8.93506">
-    <testcase classname="In order to surf different sites" name="Surf different sites" time="8.93506">
-        <system-out><![CDATA[Given Initializing driver...................................................passed
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="11.100946">
+    <testcase classname="In order to surf different sites" name="Surf different sites" time="11.100946">
+        <system-out><![CDATA[Given Initialize driver.....................................................passed
 Given The site to browse is "https://the-internet.herokuapp.com/"...........passed
 Then User shall get the title "The Internet"................................passed
 ]]></system-out>
