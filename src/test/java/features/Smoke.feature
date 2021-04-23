@@ -1,13 +1,12 @@
 Feature: In order to surf different sites
 	As a user
-	I want to see the titles
+	I want to see the titles of each site loaded
 
 Background: Setup drivers
-Given Initializing driver
+Given Initialize driver
 
 @Smoke	
 Scenario: Surf different sites
 Given The site to browse is "https://the-internet.herokuapp.com/"
 Then User shall get the title "The Internet"
 
-#Committing comments. Test 5

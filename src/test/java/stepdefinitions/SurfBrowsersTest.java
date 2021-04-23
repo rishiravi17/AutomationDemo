@@ -11,8 +11,8 @@ public class SurfBrowsersTest {
 	
 	private WebDriver driver;
 	
-	@Given("^Initializing driver$")
-	public void initializing_driver() throws Throwable {
+	@Given("^Initialize driver$")
+	public void initializing_driver() {
 		
 		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/resources/drivers/chromedriver.exe");
 		
