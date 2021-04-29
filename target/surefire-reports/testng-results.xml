@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="10125" started-at="2021-04-21T07:13:15Z" finished-at="2021-04-21T07:13:25Z">
+  <suite name="Suite" duration-ms="61439" started-at="2021-04-29T04:20:20Z" finished-at="2021-04-29T04:21:21Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="10125" started-at="2021-04-21T07:13:15Z" finished-at="2021-04-21T07:13:25Z">
+    <test name="Test" duration-ms="61439" started-at="2021-04-29T04:20:20Z" finished-at="2021-04-29T04:21:21Z">
       <class name="org.sample.projectjava.SurfWebSitesTest">
-        <test-method status="PASS" signature="setupDriver()[pri:0, instance:org.sample.projectjava.SurfWebSitesTest@add0edd]" name="setupDriver" is-config="true" duration-ms="1717" started-at="2021-04-21T07:13:15Z" finished-at="2021-04-21T07:13:17Z">
+        <test-method status="PASS" signature="setupDriver()[pri:0, instance:org.sample.projectjava.SurfWebSitesTest@add0edd]" name="setupDriver" is-config="true" duration-ms="34485" started-at="2021-04-29T04:20:20Z" finished-at="2021-04-29T04:20:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupDriver -->
-        <test-method status="PASS" signature="surfSites(java.lang.String)[pri:0, instance:org.sample.projectjava.SurfWebSitesTest@add0edd]" name="surfSites" duration-ms="816" started-at="2021-04-21T07:13:18Z" data-provider="getSiteURLs" finished-at="2021-04-21T07:13:19Z">
+        <test-method status="PASS" signature="surfSites(java.lang.String)[pri:0, instance:org.sample.projectjava.SurfWebSitesTest@add0edd]" name="surfSites" duration-ms="8275" started-at="2021-04-29T04:20:57Z" data-provider="getSiteURLs" finished-at="2021-04-29T04:21:05Z">
           <params>
             <param index="0">
               <value>
@@ -22,7 +22,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- surfSites -->
-        <test-method status="PASS" signature="surfSites(java.lang.String)[pri:0, instance:org.sample.projectjava.SurfWebSitesTest@add0edd]" name="surfSites" duration-ms="5335" started-at="2021-04-21T07:13:19Z" data-provider="getSiteURLs" finished-at="2021-04-21T07:13:24Z">
+        <test-method status="PASS" signature="surfSites(java.lang.String)[pri:0, instance:org.sample.projectjava.SurfWebSitesTest@add0edd]" name="surfSites" duration-ms="4442" started-at="2021-04-29T04:21:05Z" data-provider="getSiteURLs" finished-at="2021-04-29T04:21:10Z">
           <params>
             <param index="0">
               <value>
@@ -33,7 +33,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- surfSites -->
-        <test-method status="PASS" signature="surfSites(java.lang.String)[pri:0, instance:org.sample.projectjava.SurfWebSitesTest@add0edd]" name="surfSites" duration-ms="863" started-at="2021-04-21T07:13:24Z" data-provider="getSiteURLs" finished-at="2021-04-21T07:13:25Z">
+        <test-method status="PASS" signature="surfSites(java.lang.String)[pri:0, instance:org.sample.projectjava.SurfWebSitesTest@add0edd]" name="surfSites" duration-ms="10995" started-at="2021-04-29T04:21:10Z" data-provider="getSiteURLs" finished-at="2021-04-29T04:21:21Z">
           <params>
             <param index="0">
               <value>
@@ -44,7 +44,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- surfSites -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.sample.projectjava.SurfWebSitesTest@add0edd]" name="tearDown" is-config="true" duration-ms="626" started-at="2021-04-21T07:13:25Z" finished-at="2021-04-21T07:13:25Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.sample.projectjava.SurfWebSitesTest@add0edd]" name="tearDown" is-config="true" duration-ms="667" started-at="2021-04-29T04:21:21Z" finished-at="2021-04-29T04:21:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
