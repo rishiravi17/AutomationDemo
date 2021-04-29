@@ -36,6 +36,8 @@ public class SurfWebSitesTest {
 	@AfterClass
 	public void tearDown() {
 		
+		System.out.println("Quiting driver!!");
+		
 		driver.quit();
 		
 	}
